@@ -1,0 +1,552 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル\engine">
+      <UniqueIdentifier>{092d901b-940b-4589-97e3-7ef49c55c411}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\Example">
+      <UniqueIdentifier>{13cdfc0a-8478-412f-8a51-79cf19a4fec3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\engine\assets">
+      <UniqueIdentifier>{68e1a92b-9529-4327-80ad-4e1097e86f31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\engine\dll">
+      <UniqueIdentifier>{a10d6594-aaad-4e6d-adba-5f3a5f18826b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\engine\fonts">
+      <UniqueIdentifier>{3538dd1c-fc2c-4d70-a41c-0cd7ca94350e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\engine\shaders">
+      <UniqueIdentifier>{341fa0db-9ba0-4d8b-88da-e19a07244551}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\engine\shaders\d3d11">
+      <UniqueIdentifier>{ce6dca18-cb77-4cf1-a09b-2c568fd9b36e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\engine\fonts\mplus">
+      <UniqueIdentifier>{99143a80-58b1-454e-806f-515e7065900b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Nose">
+      <UniqueIdentifier>{261ca0a7-204c-4be0-a024-e9ca5812a009}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hair">
+      <UniqueIdentifier>{a8bc370b-f834-4d40-ba03-c07a6ba6968b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mouth">
+      <UniqueIdentifier>{d80d63eb-24af-4315-9a8d-2859ffaaa194}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Eye">
+      <UniqueIdentifier>{bc406f2e-5151-484c-b41f-d6a6680034d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Eyebrow">
+      <UniqueIdentifier>{b3bdf04f-10e2-42f0-a820-a17899460a1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Body">
+      <UniqueIdentifier>{6b908a73-1898-4aad-93c2-ea9fb8224b28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application">
+      <UniqueIdentifier>{b31a6ce8-9af6-48b4-b959-f1e3de1a0546}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parts">
+      <UniqueIdentifier>{2c4eb579-2137-482e-8387-16d6dff77243}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tab">
+      <UniqueIdentifier>{06cde4e8-7a95-4858-a309-fa761132e617}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Page">
+      <UniqueIdentifier>{38217d01-ca6d-42f8-8cfc-664988032081}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BackGraphic">
+      <UniqueIdentifier>{4eba42af-5a1d-4b0b-990a-39d34c4bba50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tops">
+      <UniqueIdentifier>{e4c685a6-09d3-44ff-870e-a08d13d698a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bottoms">
+      <UniqueIdentifier>{c06e1eab-2996-4af9-8227-70c0fa8b6adc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Set">
+      <UniqueIdentifier>{12656370-21bf-41a0-9c9d-c08a5c628300}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Accessory">
+      <UniqueIdentifier>{5816781a-e4ae-41c6-abb4-d21b3837b1d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shoes">
+      <UniqueIdentifier>{d6d2463c-3abb-4a7f-b7e2-f19cde741b68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Group">
+      <UniqueIdentifier>{d685e74f-09f5-4cf4-9c15-5da26953c104}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Post">
+      <UniqueIdentifier>{4b111fbf-08af-4c16-957c-f8acf003bb56}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Actor.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Task.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Eye.cpp">
+      <Filter>Eye</Filter>
+    </ClCompile>
+    <ClCompile Include="EyeManager.cpp">
+      <Filter>Eye</Filter>
+    </ClCompile>
+    <ClCompile Include="EyebrowManager.cpp">
+      <Filter>Eyebrow</Filter>
+    </ClCompile>
+    <ClCompile Include="Eyebrow.cpp">
+      <Filter>Eyebrow</Filter>
+    </ClCompile>
+    <ClCompile Include="HairManager.cpp">
+      <Filter>Hair</Filter>
+    </ClCompile>
+    <ClCompile Include="Hair.cpp">
+      <Filter>Hair</Filter>
+    </ClCompile>
+    <ClCompile Include="NoseManager.cpp">
+      <Filter>Nose</Filter>
+    </ClCompile>
+    <ClCompile Include="Nose.cpp">
+      <Filter>Nose</Filter>
+    </ClCompile>
+    <ClCompile Include="MouthManager.cpp">
+      <Filter>Mouth</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouth.cpp">
+      <Filter>Mouth</Filter>
+    </ClCompile>
+    <ClCompile Include="AvatarBodySkinColor.cpp">
+      <Filter>Body</Filter>
+    </ClCompile>
+    <ClCompile Include="AvatarBodyManager.cpp">
+      <Filter>Body</Filter>
+    </ClCompile>
+    <ClCompile Include="AvatarBody.cpp">
+      <Filter>Body</Filter>
+    </ClCompile>
+    <ClCompile Include="AvatarManager.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="AvatarApplication.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="FPS.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Parts.cpp">
+      <Filter>Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="Tab.cpp">
+      <Filter>Tab</Filter>
+    </ClCompile>
+    <ClCompile Include="TabManager.cpp">
+      <Filter>Tab</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="PageManager.cpp">
+      <Filter>Page</Filter>
+    </ClCompile>
+    <ClCompile Include="BackGraphic.cpp">
+      <Filter>BackGraphic</Filter>
+    </ClCompile>
+    <ClCompile Include="BackGraphicManager.cpp">
+      <Filter>BackGraphic</Filter>
+    </ClCompile>
+    <ClCompile Include="Tops.cpp">
+      <Filter>Tops</Filter>
+    </ClCompile>
+    <ClCompile Include="TopsManager.cpp">
+      <Filter>Tops</Filter>
+    </ClCompile>
+    <ClCompile Include="Bottoms.cpp">
+      <Filter>Bottoms</Filter>
+    </ClCompile>
+    <ClCompile Include="BottomsManager.cpp">
+      <Filter>Bottoms</Filter>
+    </ClCompile>
+    <ClCompile Include="Set.cpp">
+      <Filter>Set</Filter>
+    </ClCompile>
+    <ClCompile Include="SetManager.cpp">
+      <Filter>Set</Filter>
+    </ClCompile>
+    <ClCompile Include="Accessory.cpp">
+      <Filter>Accessory</Filter>
+    </ClCompile>
+    <ClCompile Include="AccessoryManager.cpp">
+      <Filter>Accessory</Filter>
+    </ClCompile>
+    <ClCompile Include="Shoes.cpp">
+      <Filter>Shoes</Filter>
+    </ClCompile>
+    <ClCompile Include="ShoesManager.cpp">
+      <Filter>Shoes</Filter>
+    </ClCompile>
+    <ClCompile Include="ResetAvatar.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenShot.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Group.cpp">
+      <Filter>Group</Filter>
+    </ClCompile>
+    <ClCompile Include="GroupManager.cpp">
+      <Filter>Group</Filter>
+    </ClCompile>
+    <ClCompile Include="Post.cpp">
+      <Filter>Post</Filter>
+    </ClCompile>
+    <ClCompile Include="PostManager.cpp">
+      <Filter>Post</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Example\Windmill.png">
+      <Filter>リソース ファイル\Example</Filter>
+    </Image>
+    <Image Include="Example\Earth.jpg">
+      <Filter>リソース ファイル\Example</Filter>
+    </Image>
+    <Image Include="Example\Particle.png">
+      <Filter>リソース ファイル\Example</Filter>
+    </Image>
+    <Image Include="engine\splash.png">
+      <Filter>リソース ファイル\engine</Filter>
+    </Image>
+    <Image Include="engine\assets\circle.png">
+      <Filter>リソース ファイル\engine\assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="RC.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Example\Prokofiev.mid">
+      <Filter>リソース ファイル\Example</Filter>
+    </None>
+    <None Include="engine\dll\libmpg123.dll">
+      <Filter>リソース ファイル\engine\dll</Filter>
+    </None>
+    <None Include="engine\fonts\README">
+      <Filter>リソース ファイル\engine\fonts</Filter>
+    </None>
+    <None Include="engine\shaders\d3d11\FXAA_Q25.ps">
+      <Filter>リソース ファイル\engine\shaders\d3d11</Filter>
+    </None>
+    <None Include="engine\shaders\d3d11\FXAA_Q39.ps">
+      <Filter>リソース ファイル\engine\shaders\d3d11</Filter>
+    </None>
+    <None Include="engine\shaders\d3d11\LightAccumulation.ps">
+      <Filter>リソース ファイル\engine\shaders\d3d11</Filter>
+    </None>
+    <None Include="engine\shaders\d3d11\LightAccumulationLinearFog.ps">
+      <Filter>リソース ファイル\engine\shaders\d3d11</Filter>
+    </None>
+    <None Include="engine\shaders\d3d11\LightAccumulationSquareExponentialFog.ps">
+      <Filter>リソース ファイル\engine\shaders\d3d11</Filter>
+    </None>
+    <None Include="engine\shaders\d3d11\MeshDeferred.ps">
+      <Filter>リソース ファイル\engine\shaders\d3d11</Filter>
+    </None>
+    <None Include="engine\shaders\d3d11\MeshForward.ps">
+      <Filter>リソース ファイル\engine\shaders\d3d11</Filter>
+    </None>
+    <None Include="engine\shaders\d3d11\MeshForwardLinearFog.ps">
+      <Filter>リソース ファイル\engine\shaders\d3d11</Filter>
+    </None>
+    <None Include="engine\shaders\d3d11\MeshForwardSquareExponentialFog.ps">
+      <Filter>リソース ファイル\engine\shaders\d3d11</Filter>
+    </None>
+    <None Include="engine\shaders\d3d11\Shape.ps">
+      <Filter>リソース ファイル\engine\shaders\d3d11</Filter>
+    </None>
+    <None Include="engine\shaders\d3d11\ShapeStencil.ps">
+      <Filter>リソース ファイル\engine\shaders\d3d11</Filter>
+    </None>
+    <None Include="engine\shaders\d3d11\Sprite.ps">
+      <Filter>リソース ファイル\engine\shaders\d3d11</Filter>
+    </None>
+    <None Include="engine\shaders\d3d11\SpriteStencil.ps">
+      <Filter>リソース ファイル\engine\shaders\d3d11</Filter>
+    </None>
+    <None Include="engine\shaders\d3d11\TexturedMeshDeferred.ps">
+      <Filter>リソース ファイル\engine\shaders\d3d11</Filter>
+    </None>
+    <None Include="engine\shaders\d3d11\TexturedMeshForward.ps">
+      <Filter>リソース ファイル\engine\shaders\d3d11</Filter>
+    </None>
+    <None Include="engine\shaders\d3d11\TexturedMeshForwardLinearFog.ps">
+      <Filter>リソース ファイル\engine\shaders\d3d11</Filter>
+    </None>
+    <None Include="engine\shaders\d3d11\TexturedMeshForwardSquareExponentialFog.ps">
+      <Filter>リソース ファイル\engine\shaders\d3d11</Filter>
+    </None>
+    <None Include="engine\shaders\d3d11\PS.SIV3D">
+      <Filter>リソース ファイル\engine\shaders\d3d11</Filter>
+    </None>
+    <None Include="engine\shaders\d3d11\VS.SIV3D">
+      <Filter>リソース ファイル\engine\shaders\d3d11</Filter>
+    </None>
+    <None Include="engine\shaders\d3d11\LightAccumulation.vs">
+      <Filter>リソース ファイル\engine\shaders\d3d11</Filter>
+    </None>
+    <None Include="engine\shaders\d3d11\MeshDeferred.vs">
+      <Filter>リソース ファイル\engine\shaders\d3d11</Filter>
+    </None>
+    <None Include="engine\shaders\d3d11\MeshForward.vs">
+      <Filter>リソース ファイル\engine\shaders\d3d11</Filter>
+    </None>
+    <None Include="engine\shaders\d3d11\MeshForwardFog.vs">
+      <Filter>リソース ファイル\engine\shaders\d3d11</Filter>
+    </None>
+    <None Include="engine\shaders\d3d11\ScreenQuad.vs">
+      <Filter>リソース ファイル\engine\shaders\d3d11</Filter>
+    </None>
+    <None Include="engine\shaders\d3d11\Shape.vs">
+      <Filter>リソース ファイル\engine\shaders\d3d11</Filter>
+    </None>
+    <None Include="engine\shaders\d3d11\ShapeStencil.vs">
+      <Filter>リソース ファイル\engine\shaders\d3d11</Filter>
+    </None>
+    <None Include="engine\shaders\d3d11\Sprite.vs">
+      <Filter>リソース ファイル\engine\shaders\d3d11</Filter>
+    </None>
+    <None Include="engine\shaders\d3d11\SpriteStencil.vs">
+      <Filter>リソース ファイル\engine\shaders\d3d11</Filter>
+    </None>
+    <None Include="engine\shaders\d3d11\TexturedMeshDeferred.vs">
+      <Filter>リソース ファイル\engine\shaders\d3d11</Filter>
+    </None>
+    <None Include="engine\shaders\d3d11\TexturedMeshForward.vs">
+      <Filter>リソース ファイル\engine\shaders\d3d11</Filter>
+    </None>
+    <None Include="engine\shaders\d3d11\TexturedMeshForwardFog.vs">
+      <Filter>リソース ファイル\engine\shaders\d3d11</Filter>
+    </None>
+    <None Include="engine\shaders\d3d11\Finalize.ps">
+      <Filter>リソース ファイル\engine\shaders\d3d11</Filter>
+    </None>
+    <None Include="engine\shaders\d3d11\Font.ps">
+      <Filter>リソース ファイル\engine\shaders\d3d11</Filter>
+    </None>
+    <None Include="engine\shaders\d3d11\FXAA_None.ps">
+      <Filter>リソース ファイル\engine\shaders\d3d11</Filter>
+    </None>
+    <None Include="engine\shaders\d3d11\FXAA_Q20.ps">
+      <Filter>リソース ファイル\engine\shaders\d3d11</Filter>
+    </None>
+    <None Include="engine\fonts\mplus\LICENSE_E">
+      <Filter>リソース ファイル\engine\fonts\mplus</Filter>
+    </None>
+    <None Include="engine\fonts\mplus\LICENSE_J">
+      <Filter>リソース ファイル\engine\fonts\mplus</Filter>
+    </None>
+    <None Include="engine\config.ini">
+      <Filter>リソース ファイル\engine</Filter>
+    </None>
+    <None Include="engine\Siv3DVersion">
+      <Filter>リソース ファイル\engine</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Example\素材について.txt">
+      <Filter>リソース ファイル\Example</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Example\Sound.mp3">
+      <Filter>リソース ファイル\Example</Filter>
+    </Media>
+    <Media Include="Example\風の丘.mp3">
+      <Filter>リソース ファイル\Example</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="Example\YomogiFont.ttf">
+      <Filter>リソース ファイル\Example</Filter>
+    </Font>
+    <Font Include="engine\fonts\umeplus-p-gothic.ttf">
+      <Filter>リソース ファイル\engine\fonts</Filter>
+    </Font>
+    <Font Include="engine\fonts\mplus\mplus-1p-heavy.ttf">
+      <Filter>リソース ファイル\engine\fonts\mplus</Filter>
+    </Font>
+    <Font Include="engine\fonts\mplus\mplus-1p-light.ttf">
+      <Filter>リソース ファイル\engine\fonts\mplus</Filter>
+    </Font>
+    <Font Include="engine\fonts\mplus\mplus-1p-medium.ttf">
+      <Filter>リソース ファイル\engine\fonts\mplus</Filter>
+    </Font>
+    <Font Include="engine\fonts\mplus\mplus-1p-regular.ttf">
+      <Filter>リソース ファイル\engine\fonts\mplus</Filter>
+    </Font>
+    <Font Include="engine\fonts\mplus\mplus-1p-thin.ttf">
+      <Filter>リソース ファイル\engine\fonts\mplus</Filter>
+    </Font>
+    <Font Include="engine\fonts\mplus\mplus-1p-black.ttf">
+      <Filter>リソース ファイル\engine\fonts\mplus</Filter>
+    </Font>
+    <Font Include="engine\fonts\mplus\mplus-1p-bold.ttf">
+      <Filter>リソース ファイル\engine\fonts\mplus</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Actor.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Task.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="AvatarApplication.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="AvatarManager.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="AvatarBody.h">
+      <Filter>Body</Filter>
+    </ClInclude>
+    <ClInclude Include="AvatarBodyManager.h">
+      <Filter>Body</Filter>
+    </ClInclude>
+    <ClInclude Include="AvatarBodySkinColor.h">
+      <Filter>Body</Filter>
+    </ClInclude>
+    <ClInclude Include="Eye.h">
+      <Filter>Eye</Filter>
+    </ClInclude>
+    <ClInclude Include="EyeManager.h">
+      <Filter>Eye</Filter>
+    </ClInclude>
+    <ClInclude Include="Eyebrow.h">
+      <Filter>Eyebrow</Filter>
+    </ClInclude>
+    <ClInclude Include="EyebrowManager.h">
+      <Filter>Eyebrow</Filter>
+    </ClInclude>
+    <ClInclude Include="FPS.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Hair.h">
+      <Filter>Hair</Filter>
+    </ClInclude>
+    <ClInclude Include="HairManager.h">
+      <Filter>Hair</Filter>
+    </ClInclude>
+    <ClInclude Include="MouthManager.h">
+      <Filter>Mouth</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouth.h">
+      <Filter>Mouth</Filter>
+    </ClInclude>
+    <ClInclude Include="Nose.h">
+      <Filter>Nose</Filter>
+    </ClInclude>
+    <ClInclude Include="NoseManager.h">
+      <Filter>Nose</Filter>
+    </ClInclude>
+    <ClInclude Include="Parts.h">
+      <Filter>Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="TabManager.h">
+      <Filter>Tab</Filter>
+    </ClInclude>
+    <ClInclude Include="Tab.h">
+      <Filter>Tab</Filter>
+    </ClInclude>
+    <ClInclude Include="PageManager.h">
+      <Filter>Page</Filter>
+    </ClInclude>
+    <ClInclude Include="BackGraphic.h">
+      <Filter>BackGraphic</Filter>
+    </ClInclude>
+    <ClInclude Include="BackGraphicManager.h">
+      <Filter>BackGraphic</Filter>
+    </ClInclude>
+    <ClInclude Include="Tops.h">
+      <Filter>Tops</Filter>
+    </ClInclude>
+    <ClInclude Include="TopsManager.h">
+      <Filter>Tops</Filter>
+    </ClInclude>
+    <ClInclude Include="Bottoms.h">
+      <Filter>Bottoms</Filter>
+    </ClInclude>
+    <ClInclude Include="BottomsManager.h">
+      <Filter>Bottoms</Filter>
+    </ClInclude>
+    <ClInclude Include="Set.h">
+      <Filter>Set</Filter>
+    </ClInclude>
+    <ClInclude Include="SetManager.h">
+      <Filter>Set</Filter>
+    </ClInclude>
+    <ClInclude Include="Accessory.h">
+      <Filter>Accessory</Filter>
+    </ClInclude>
+    <ClInclude Include="AccessoryManager.h">
+      <Filter>Accessory</Filter>
+    </ClInclude>
+    <ClInclude Include="Shoes.h">
+      <Filter>Shoes</Filter>
+    </ClInclude>
+    <ClInclude Include="ShoesManager.h">
+      <Filter>Shoes</Filter>
+    </ClInclude>
+    <ClInclude Include="ResetAvatar.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenShot.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GroupManager.h">
+      <Filter>Group</Filter>
+    </ClInclude>
+    <ClInclude Include="Group.h">
+      <Filter>Group</Filter>
+    </ClInclude>
+    <ClInclude Include="Post.h">
+      <Filter>Post</Filter>
+    </ClInclude>
+    <ClInclude Include="PostManager.h">
+      <Filter>Post</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
